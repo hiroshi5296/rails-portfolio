@@ -1,0 +1,16 @@
+<h1>詳細ページ</h1>
+<table>
+  <tr>
+    <th>学科</th>
+    <td><%= @subject.name %></td>
+  </tr>
+  <tr>
+    <th>学科説明</th>
+    <td><%= @subject.content %></td>
+  </tr>
+  <tr>
+    <th>担当教師</th>
+    <td><%= @subject.teacher %></td>
+  </tr>
+  <%= link_to "トップページ", root_path %>
+</table>
